@@ -14,6 +14,11 @@ public class B extends A{
         System.out.println(ans);
         sc.close();
         // -- now calling constructor
-        
+        new B();
+        // output
+        // 8 is even?
+        // true
+        // In constructor A
+        // In constructor B
     }
 }
